@@ -184,12 +184,12 @@ header .follow a:hover{
 .home .content h3{
     font-size: 4.5rem;
     color:#111;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .home .content h3 span{
     color:var(--main-color);
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .home .content .info{
@@ -199,6 +199,7 @@ header .follow a:hover{
 }
 
 .home .content .text{
+    text-transform: none;
     font-size: 1.7rem;
     color:#666;
     padding:.5rem 0;
@@ -234,6 +235,7 @@ header .follow a:hover{
 }
 
 .about .row-1 .content p{
+    text-transform: none;
     color:#666;
     font-size: 1.7rem;
     padding:.5rem 0;
@@ -306,11 +308,11 @@ header .follow a:hover{
 }
 
 .about .row-2 .skills .progress:nth-child(4) .bar span{
-    width:80%;
+    width:70%;
 }
 
 .about .row-2 .skills .progress:nth-child(5) .bar span{
-    width:80%;
+    width:70%;
 }
 
 
@@ -386,8 +388,6 @@ header .follow a:hover{
 .experience .box-container{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: center; */
     flex-wrap: wrap;
 }
 
@@ -532,6 +532,7 @@ header .follow a:hover{
 }
 
 .contact .icons-container .icons p{
+    text-transform: none;
     color:#666;
     font-size: 1.7rem;
 }
